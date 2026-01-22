@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaditya Joshi | Lead Software Engineer</title>
+    <meta name="description" content="Portfolio of Aaditya Joshi, a Lead Software Engineer and M.S. CS student at Georgia Tech specializing in backend optimization and cloud architecture.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!-- Placeholder for icons, actual implementation might vary -->
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#hero" class="logo">AJ.</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact" class="btn-primary">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero" class="hero">
+        <div class="hero-bg" style="background-image: url('background.jpg');"></div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="fade-in">Hi, I'm <span class="highlight">Aaditya Joshi</span></h1>
+            <p class="subtitle fade-in delay-1">Lead Software Engineer & MS CS Student at Georgia Tech</p>
+            <p class="description fade-in delay-2">Architecting high-availability systems, modernizing legacy infrastructure, and building scalable cloud solutions.</p>
+            <div class="hero-btns fade-in delay-3">
+                <a href="#experience" class="btn-primary">View My Work</a>
+                <a href="aaditya_resume.pdf" target="_blank" class="btn-secondary">Resume</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I am a Lead Software Engineer with over 4 years of experience specializing in backend optimizations, cloud architecture, and machine learning. Currently, I am pursuing my M.S. in Computer Science at Georgia Tech.</p>
+                    <p>My passion lies in solving complex problems—whether it's reducing API latency by 75%, leading global platform launches, or automating SQL generation with LLMs.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <h3>4+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>MS CS</h3>
+                        <p>Georgia Tech</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Lead</h3>
+                        <p>Engineering Role</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                
+                <!-- Experience Item 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Jul 2021 - Jul 2025</div>
+                    <div class="timeline-content">
+                        <h3>Lead Engineer</h3>
+                        <h4>Ridecell</h4>
+                        <ul>
+                            <li>Engineered "Insight Builder" using Claude and PydanticAI to automate SQL/chart generation, reducing dashboard creation time by 60%.</li>
+                            <li>Led global on-site platform launches (Germany, Spain, Belgium) as primary technical lead.</li>
+                            <li>Reduced API latency by 75% via Django ORM optimization and materialized views.</li>
+                            <li>Maintained 99.999% uptime and resolved SEV1/SEV2 incidents in <1 hour.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience Item 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Jan 2021 - Mar 2021</div>
+                    <div class="timeline-content">
+                        <h3>R&D Intern</h3>
+                        <h4>Control Tech Systems</h4>
+                        <ul>
+                            <li>Developed Arduino-based electric roll press proof-of-concept using C/C++.</li>
+                            <li>Designed and built new PLC-controlled machines for the laundry industry.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience Item 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Apr 2020 - Jun 2020</div>
+                    <div class="timeline-content">
+                        <h3>SDE Intern</h3>
+                        <h4>Finiq Consulting India Pvt Ltd</h4>
+                        <ul>
+                            <li>Built a trader-focused landing page with JavaScript and Chart.js for real-time updates.</li>
+                            <li>Designed REST APIs with Spring Boot, JPA, and MySQL, adding multithreaded schedulers.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-img-wrapper">
+                        <img src="someity.png" alt="Someity Logo" class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>Someity</h3>
+                        <p class="project-role">Making the Web Accessible for All</p>
+                        <p>Winner MLH Hack-cessible hackathon. A Chrome-based extension to make websites more a11y-friendly without changing source code. Served 140+ users from 28 countries.</p>
+                        <div class="project-tags">
+                            <span>JavaScript</span>
+                            <span>Accessibility</span>
+                            <span>Chrome Extension</span>
+                        </div>
+                        <a href="https://someity.tech/" target="_blank" class="btn-link">View Project &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-img-wrapper" style="background: #2c3e50; display: flex; align-items: center; justify-content: center; color: white;">
+                        <!-- Placeholder visual for Weblate since we don't have an image file for it -->
+                        <span style="font-size: 2rem; font-weight: bold;">Weblate</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Weblate Contributor</h3>
+                        <p class="project-role">Open Source - Python, Django</p>
+                        <p>Contributed to core codebase (6k+ stars) by implementing API endpoints for translation units and streamlining onboarding documentation.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Django</span>
+                            <span>Open Source</span>
+                        </div>
+                        <a href="https://github.com/WeblateOrg/weblate" target="_blank" class="btn-link">View Code &rarr;</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-wrapper">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-tags">
+                        <span>Python</span>
+                        <span>C/C++</span>
+                        <span>JavaScript</span>
+                        <span>Java</span>
+                        <span>SQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend & Frameworks</h3>
+                    <div class="skill-tags">
+                        <span>Django</span>
+                        <span>DRF</span>
+                        <span>FastAPI</span>
+                        <span>Spring Boot</span>
+                        <span>Node.js</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Cloud & DevOps</h3>
+                    <div class="skill-tags">
+                        <span>AWS</span>
+                        <span>Docker</span>
+                        <span>Kubernetes</span>
+                        <span>GitHub Actions</span>
+                        <span>Kafka</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>AI & ML</h3>
+                    <div class="skill-tags">
+                        <span>PydanticAI</span>
+                        <span>Anthropic Claude</span>
+                        <span>RAG</span>
+                        <span>LangChain</span>
+                        <span>PyTorch</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-text">I'm currently based in Atlanta, Georgia. Feel free to reach out for collaborations or opportunities.</p>
+            <div class="contact-links">
+                <a href="mailto:aaditya.joshi@gatech.edu" class="contact-btn">
+                    <span>Email Me</span>
+                </a>
+                <a href="https://linkedin.com/in/aadityajoshi2699/" target="_blank" class="contact-btn">
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/aadityajo" target="_blank" class="contact-btn">
+                    <span>GitHub</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Aaditya Joshi. Built with precision.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
