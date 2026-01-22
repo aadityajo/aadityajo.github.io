@@ -4,7 +4,6 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { portfolioData } from '@/data/portfolio';
 import { ExternalLink, Github } from 'lucide-react';
-import Image from 'next/image';
 
 const Projects = () => {
   return (
@@ -27,12 +26,11 @@ const Projects = () => {
             >
               <div className="h-64 bg-gray-50 relative overflow-hidden flex items-center justify-center p-8">
                 {project.image ? (
-                   <div className="relative w-full h-full">
-                     <Image 
+                   <div className="relative w-full h-full flex items-center justify-center">
+                     <img 
                       src={project.image} 
                       alt={project.title} 
-                      fill
-                      className="object-contain transition-transform duration-500 group-hover:scale-105"
+                      className="object-contain w-full h-full transition-transform duration-500 group-hover:scale-105"
                     />
                    </div>
                 ) : (

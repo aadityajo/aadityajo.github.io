@@ -59,6 +59,7 @@ export const portfolioData = {
       description: "Contributed to core codebase (6k+ stars) by implementing API endpoints for translation units and streamlining onboarding documentation.",
       tags: ["Python", "Django", "Open Source"],
       link: "https://github.com/WeblateOrg/weblate",
+      image: "/weblate.png",
     },
   ],
   skills: {
