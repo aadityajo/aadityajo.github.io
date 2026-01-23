@@ -61,6 +61,13 @@ export const portfolioData = {
       link: "https://github.com/WeblateOrg/weblate",
       image: "/weblate.png",
     },
+    {
+      title: "Job Portal (SIH 2020)",
+      role: "Full Stack Developer",
+      description: "A comprehensive job portal application developed for the Smart India Hackathon 2020 Finale.",
+      tags: ["Django", "Python", "JavaScript", "HTML/CSS"],
+      link: "https://github.com/aadityajo/Job-Portal-SIH-2020",
+    },
   ],
   skills: {
     languages: ["Python", "C/C++", "JavaScript", "Java", "SQL"],
